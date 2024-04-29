@@ -6,5 +6,5 @@ mostraTexto = st.selectbox('Mostrar Texto', options=['Sim', 'Não'], key='mostra
 if st.session_state.mostraTexto == 'Sim':
     st.write(' Teste de deploy usando streamlit: OK!')
 else:
-    dfAreaPrest_0 = pd.read_csv("main/df_Mun_UF_Area.csv", dtype=str)
+    dfAreaPrest_0 = pd.read_csv("deployStreamlit/df_Mun_UF_Area.csv", dtype=str)
     st.dataframe(dfAreaPrest_0)
