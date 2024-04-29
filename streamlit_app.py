@@ -9,4 +9,5 @@ elif st.session_state.mostraTexto == 'Não':
     dfAreaPrest_0 = pd.read_csv("df_Mun_UF_Area.csv", dtype=str)
     st.dataframe(dfAreaPrest_0)
 else:
-    teste/opa.py
+    df_Mun_UF_Area_0 = pd.read_csv("teste/df_Mun_UF_Area.csv", dtype=str)
+    st.dataframe(df_Mun_UF_Area_0)
