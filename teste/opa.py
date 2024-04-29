@@ -1,1 +1,3 @@
-"Lendo arquivo da pasta teste"
+import streamlit as st
+
+st.write("Lendo arquivo da pasta teste")
