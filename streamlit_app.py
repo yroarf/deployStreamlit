@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 mostraTexto = st.selectbox('Mostrar Texto', options=['Sim', 'Não'], key='mostraTexto')
 
